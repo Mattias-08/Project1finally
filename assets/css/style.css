@@ -120,3 +120,33 @@ nav#main-nav {
     padding: 5%;
     color: #3a3a3a;
 }
+
+@media screen and (min-width: 768px) {
+  /* Header */
+  nav {
+      display: block;
+      position: relative;
+      box-shadow: none;
+      width: fit-content;
+      padding-right: 1rem;
+  }
+
+  #menu {
+      display: flex;
+  }
+
+  #menu > li {
+      padding-left: 1rem;
+  }
+
+  .nav-toggle-label {
+      display: none;
+  }
+  header {
+    /* Center the navigation within the header */
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center center; /* Vertically center content (if needed) */
+  }
+  
+}
