@@ -35,10 +35,16 @@ header {
     color: inherit;
 }
 
+
+
   #menu {
     font-size: 120%;
     letter-spacing: 4px;
     list-style-type: none;
+    padding: 1;
+    text-align: left; /* Left-align the menu items */
+    
+
 }
 
 #menu > li {
@@ -48,7 +54,52 @@ header {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-
+nav#main-nav {
+    position: absolute; /* Positioned relative to header */
+    background-color: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Adjust width as needed */
+    top: 100%; /* Positioned below the button */
+    left: 0rem; /* Aligned to the left of the button */
+    height: 0; /* Initially hidden */
+    overflow: hidden; /* Prevent content overflow */
+    transition: height 0.3s ease-in-out; /* Add smooth transition */
+    background-color:#c0a070;
+    text-indent: 1rem;
+  }
+  
+  /* Navigation menu hidden on toggle */
+  #nav-toggle:not(:checked) ~ nav#main-nav {
+    height: 0; /* Collapse the menu on button uncheck */
+  }
+  
+  /* Navigation menu shown on toggle */
+  #nav-toggle:checked ~ nav#main-nav {
+    height: auto; /* Expand to full content height */
+  }
+  
+  /* Navigation toggle button (the label) */
+  .nav-toggle-label {
+    position: absolute; /* Positioned absolutely within the header */
+    top: 0rem; /* Adjust for position relative to header */
+    left: 0rem; /* Position from the left edge */
+    cursor: pointer; /* Indicate clickable behavior */
+    /* Display the X symbol using pseudo-element */
+    content: "X";
+    font-size: 2rem; /* Adjust font size for a big X */
+    color: rgba(0, 0, 0, 0.2); /* Same color as header background */
+    text-align: center; /* Center the X horizontally */
+    line-height: 1; /* Ensure the X stays centered vertically */
+    /* Show the default label text (optional) */
+    /* font-size: 1rem;  */
+    /* color: #aaa;  */
+    text-indent: 0;
+    padding: 0.5rem 1rem; /* Add some padding for aesthetics */
+  }
+  
+  /* Remove any styles for a hidden button (optional) */
+  #nav-toggle {
+    display: none;
+  }
   /* Main content */
   main {
     background-color: #e8d0b0; /* Off-white */
