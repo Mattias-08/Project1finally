@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
 
 *,
 *::before,
@@ -13,38 +13,37 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
-    color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
-}
-
-h1 {
-    font-family: 'Oswald', sans-serif;
-}
-
-/* Header */
-header {
-    background-color: lightcoral;
-}
-
-/* Main content */
-main {
-    background-color: lightblue;
-    /* Make main element take up any surplus space to push footer down */
+    color: #333; /* Dark gray */
+    font-family: 'Merriweather', serif;
+  }
+  
+  h1 {
+    font-family: 'Merriweather', serif;
+    color: #222; /* Darker gray for emphasis */
+  }
+  
+  /* Header */
+  header {
+    background-color: #ccc; /* Light gray */
+  }
+  
+  /* Main content */
+  main {
+    background-color: #e0e0e0; /* Off-white */
     flex: 1 0 auto;
-}
-
-/* Footer */
-#social-networks {
+  }
+  
+  /* Footer */
+  #social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-}
-
-#social-networks i {
+  }
+  
+  #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
-}
+    color: #333; /* Dark gray */
+  }
