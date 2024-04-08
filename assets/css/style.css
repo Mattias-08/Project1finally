@@ -13,37 +13,39 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #333; /* Dark gray */
+    /* Generic project styles */
+    color: #333;
     font-family: 'Merriweather', serif;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-family: 'Merriweather', serif;
-    color: #222; /* Darker gray for emphasis */
-  }
-  
-  /* Header */
-  header {
-    background-color: #ccc; /* Light gray */
+    color: #554422;
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    background-color: #c0a070; /* Light gray */
   }
   
   /* Main content */
   main {
-    background-color: #e0e0e0; /* Off-white */
+    background-color: #e8d0b0; /* Off-white */
     flex: 1 0 auto;
-  }
-  
-  /* Footer */
-  #social-networks {
+}
+
+/* Footer */
+#social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-  }
-  
-  #social-networks i {
+}
+
+#social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #333; /* Dark gray */
-  }
+    color: #3a3a3a;
+}
