@@ -28,13 +28,17 @@ main {
   padding: 50px;
 }
 
+p {
+  font: bold;
+}
+
 .page__header {
   margin: 2em auto;
   font-weight: bold;
 }
 
 section {
-  background-color: #c0a070;
+  background-color: #f2f2f2;
   padding: 2.5em;
   max-width: 1200px;
   display: flex;
@@ -92,9 +96,10 @@ header a {
   border-bottom: 1px solid #3a3a3a;
 }
 
+
 nav#main-nav {
   position: absolute;
-  background-color: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
   /* Adjust width as needed */
   top: 100%;
@@ -161,6 +166,14 @@ form {
   align-items: center;
 }
 
+#menu>li :hover {
+  border-bottom: 1px solid;
+  margin-bottom: 1em;
+  /* Maintain original margin */
+}
+
+
+
 textarea {
   resize: none;
 }
@@ -177,6 +190,38 @@ textarea {
 #social-networks i {
   padding: 5%;
   color: #3a3a3a;
+  transition: font-size 0.3s ease-in-out;
+}
+
+#social-networks i:hover {
+  /* Add your desired hover effects here */
+  font-size: 1.1em;
+  /* Example: Increase font size on hover */
+  color: #c0a070;
+  /* Example: Change color on hover */
+  transition: font-size 0.3s ease-in-out, color 0.3s ease-in-out;
+  /* Example: Smooth transition */
+}
+
+
+button[type="submit"] {
+  background-color: #333;
+  /* Adjust background color */
+  color: #fff;
+  /* Adjust text color */
+  padding: 10px 20px;
+  /* Adjust padding */
+  border: none;
+  /* Remove border */
+  border-radius: 5px;
+  /* Add rounded corners */
+  cursor: pointer;
+  /* Indicate clickable behavior */
+}
+
+button[type="submit"]:hover {
+  background-color: #222;
+  /* Adjust hover background color */
 }
 
 
@@ -210,6 +255,11 @@ textarea {
     display: flex;
     width: 100%;
     justify-content: space-between;
+  }
+
+  #social-networks i {
+    font-size: 1.5em;
+    /* Increase icon size on larger screens */
   }
 }
 
