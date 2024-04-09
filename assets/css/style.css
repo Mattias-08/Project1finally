@@ -123,12 +123,13 @@ nav#main-nav {
 
 @media screen and (min-width: 768px) {
   /* Header */
-  nav {
+  nav#main-nav {
       display: block;
       position: relative;
       box-shadow: none;
       width: fit-content;
       padding-right: 1rem;
+      justify-content: flex-end;
   }
 
   #menu {
