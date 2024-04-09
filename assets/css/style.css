@@ -96,6 +96,14 @@ header a {
   border-bottom: 1px solid #3a3a3a;
 }
 
+.image-container {
+  width: 100%;
+  margin: 0 auto;
+  /* Centers the container horizontally */
+  text-align: center;
+  /* Centers the image within the container (optional) */
+}
+
 
 nav#main-nav {
   position: absolute;
