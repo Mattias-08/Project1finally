@@ -13,11 +13,17 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
     color: #333;
     font-family: 'Merriweather', serif;
 }
 
+main {
+  flex: 1 0 auto;
+  display: flex;  /* Enables vertical centering */
+  justify-content: center;  /* Centers content horizontally */
+  align-items: center;  /* Centers content vertically */
+  padding: 50px;
+}
 
 /* Header */
 header {
@@ -34,8 +40,6 @@ header {
     text-decoration: none;
     color: inherit;
 }
-
-
 
   #menu {
     font-size: 120%;
@@ -66,8 +70,6 @@ nav#main-nav {
     background-color:#c0a070;
     text-indent: 1rem;
   }
-  
-
   
   /* Navigation menu shown on toggle */
   #nav-toggle:checked ~ nav#main-nav {
@@ -110,7 +112,6 @@ nav#main-nav {
 }
 
 #social-networks i {
-    font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
 }
