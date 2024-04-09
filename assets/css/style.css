@@ -70,7 +70,6 @@ header {
   z-index: 999;
   letter-spacing: 4px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-
 }
 
 header a {
@@ -84,8 +83,6 @@ header a {
   list-style-type: none;
   padding: 1px;
   text-align: left;
-
-
 }
 
 #menu>li {
@@ -103,7 +100,6 @@ header a {
   text-align: center;
   /* Centers the image within the container (optional) */
 }
-
 
 nav#main-nav {
   position: absolute;
@@ -180,8 +176,6 @@ form {
   /* Maintain original margin */
 }
 
-
-
 textarea {
   resize: none;
 }
@@ -211,7 +205,6 @@ textarea {
   /* Example: Smooth transition */
 }
 
-
 button[type="submit"] {
   background-color: #333;
   /* Adjust background color */
@@ -231,8 +224,6 @@ button[type="submit"]:hover {
   background-color: #222;
   /* Adjust hover background color */
 }
-
-
 
 @media screen and (min-width: 768px) {
 
