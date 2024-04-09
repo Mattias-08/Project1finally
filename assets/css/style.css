@@ -13,21 +13,25 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /* Generic project styles */
     color: #333;
     font-family: 'Merriweather', serif;
 }
-
 main {
   flex: 1 0 auto;
-  display: flex;  /* Enables vertical centering */
-  justify-content: center;  /* Centers content horizontally */
-  align-items: center;  /* Centers content vertically */
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
   padding: 50px;
 }
 
+section {
+  background-color: #c0a070;  
+  padding: 20px;  
+}
 /* Header */
 header {
-    background-color: #c0a070; /* Light gray */
+    background-color: #c0a070;  
     text-align: center;
     position: fixed;
     width: 100%;
@@ -45,8 +49,8 @@ header {
     font-size: 120%;
     letter-spacing: 4px;
     list-style-type: none;
-    padding: 1;
-    text-align: left; /* Left-align the menu items */
+    padding: 1px;
+    text-align: left;   
     
 
 }
@@ -59,7 +63,7 @@ header {
     border-bottom: 1px solid #3a3a3a;
 }
 nav#main-nav {
-    position: absolute; /* Positioned relative to header */
+    position: absolute;   
     background-color: 0px 2px 5px rgba(0, 0, 0, 0.2);
     width: 100%; /* Adjust width as needed */
     top: 100%; /* Positioned below the button */
