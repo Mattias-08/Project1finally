@@ -67,10 +67,7 @@ nav#main-nav {
     text-indent: 1rem;
   }
   
-  /* Navigation menu hidden on toggle */
-  #nav-toggle:not(:checked) ~ nav#main-nav {
-    height: 0; /* Collapse the menu on button uncheck */
-  }
+
   
   /* Navigation menu shown on toggle */
   #nav-toggle:checked ~ nav#main-nav {
@@ -89,9 +86,6 @@ nav#main-nav {
     color: rgba(0, 0, 0, 0.2); /* Same color as header background */
     text-align: center; /* Center the X horizontally */
     line-height: 1; /* Ensure the X stays centered vertically */
-    /* Show the default label text (optional) */
-    /* font-size: 1rem;  */
-    /* color: #aaa;  */
     text-indent: 0;
     padding: 0.5rem 1rem; /* Add some padding for aesthetics */
   }
@@ -124,12 +118,13 @@ nav#main-nav {
 @media screen and (min-width: 768px) {
   /* Header */
   nav#main-nav {
-      display: block;
+      display: flex;
       position: relative;
       box-shadow: none;
       width: fit-content;
       padding-right: 1rem;
       justify-content: flex-end;
+      height: auto;
   }
 
   #menu {
