@@ -19,26 +19,26 @@ The site can be accessable by this [link](https://mattias-08.github.io/Project1f
         * CONTACT - leads to the contact form page where users can give the company input.
     - The links have animated hover effect.
     - The navigation is easy to understand and simple.
-    ![image navbar
+    ![image navbar](docs/navbar_fullscreen.png)
 
 
 
         * On mobile devices: 
             - navigation bar has an X meny implemented on the left side.
-            ![NavBar Mobile Closed](d
+            ![NavBar Mobile Closed](docs/navbar_mobile_closed.png)
         
             - When the X menu is clicked, the dropdown menu falls down with the links in the same order.
-            ![NavBar Mobile Open](do
+            ![NavBar Mobile Open](docs/navbar_mobile_open.png)
 
- ### Home Page
++ ### Home Page
 
-    - Represent: 
+    - The homepage:
 
         * How grand and beatiful the church is.
         * An introduktions to the churchs rich history.
         * Shows a front image of the church.
 
-    ![Home Page](doc
+    ![Home Page](docs/domkyrka_homepage.png)
 
 ---
 
@@ -49,7 +49,7 @@ The site can be accessable by this [link](https://mattias-08.github.io/Project1f
         * They each contain an image centered around the specific section.
         * Short description of each section.
 
-    ![Hero Section](doc
+    ![About page](docs/image_about_domkyrkan.png)
 
 --- 
 
@@ -61,7 +61,7 @@ The site can be accessable by this [link](https://mattias-08.github.io/Project1f
         - All the labels have some form of animation so you cant leave them empty.
         - The submit button leads to the response page.
 ​
-    ![Contact page](docu
+    ![Contact page](docs/image_contact.png)
 
 
 ---
@@ -70,14 +70,14 @@ The site can be accessable by this [link](https://mattias-08.github.io/Project1f
     - Response page that appers after contact us have been filled in.
     - It contains the thank you message and a promise to reach back.
 
-    ![Response page](docume
+    ![Response page](docs/image_thankyou_page.png)
 
 ---
 + #### Footer
 
     - Footer contains social media links that open in a new tab.
 ​
-    ![Footer](documentation/footer.png)
+    ![Footer](docs/footer.png)
 ​
 ## Technologies Used
 
@@ -87,9 +87,6 @@ The site can be accessable by this [link](https://mattias-08.github.io/Project1f
 - [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive. 
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
-
-
-hmm dubbelkolla sen
 - [GIMP](https://www.gimp.org/) was used to make and resize images for the README file.
 
 ---
@@ -98,31 +95,25 @@ hmm dubbelkolla sen
 
 ### Color Scheme
 
-![Color pallet](documentation/color_pallet.png)
+![Color pallet](docs/colour_pallete.png)
 
-- Soft blue color was used a.
+- Brown was used for the header for a medival theme.
 
-- Light Blue Color was used as 
+- A light white colour was used for the sections to make them stand out and not conlflict against the dropdown-menu.
 
-- Purple color was used to m
+- White was used for the footer to make it stand outs
+
+- The rest of the colours where used for smaller elements to make them look good.
 
 
 
-sjmpdigjnngoöä fixxaaa
 
 
 ### Typography
 
-![Main Font](documentation/primary_font.png)
+![Main Font](docs/Font.png)
 
-- Lato Google Font was used as the main font of the website in order to increase readability of the content on the pages.
-
-![Accent Font](documentation/accent_font.png)
-
-- Lobster Google Font was used to attract viewers' attention to the company's logo, to make an accent on the strong points of the company, and to incentivize visitors to contact "Animal Shelter".
-
-
-ahgfegåqegiweångt fixa
+- Merriweather was used to give a medival fealing.
 
 ---
 
@@ -158,7 +149,20 @@ In your IDE Terminal, type the following command to clone my repository:
 
 + #### Media
 
-    - länkar för alla bilder
+    - The images where all taken from different websites since i wanted specific images that are hard to find.
+
+    +Header image: 
+
+    [1st image](https://byggteknikforlaget.se/lunds-domkyrka-analyseras-med-ny-teknik/)
+    
+    +Section images:
+
+    [1st image](https://mythus.fandom.com/wiki/Troll)
+    
+    [2nd image](https://visitskane.com/sv/classic-attractions/lunds-domkyrka)
+
+    [3rd image](https://www.nyaprojekt.se/2022/11/22/historiskt-med-ny-arsring-till-lunds-domkyrka-nar-torntaken-renoveras/)
+
 
 + #### Acknowledgments
 
