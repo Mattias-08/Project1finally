@@ -100,11 +100,16 @@ hmm dubbelkolla sen
 
 ![Color pallet](documentation/color_pallet.png)
 
-- Soft blue color was used as the main color of the website due to its phycological effect on people's minds. As this color is associated with trustworthiness and reliability, website visitors could build a firm believe in the organization "Animal Shelter".
+- Soft blue color was used a.
 
-- Light Blue Color was used as a background color since this color creates a sense of tranquility and makes a connection between animal's ownership and peacefulness.
+- Light Blue Color was used as 
 
-- Purple color was used to make an emphasis on the logo and leave a memorable effect on the website visitors.
+- Purple color was used to m
+
+
+
+sjmpdigjnngoöä fixxaaa
+
 
 ### Typography
 
@@ -115,6 +120,9 @@ hmm dubbelkolla sen
 ![Accent Font](documentation/accent_font.png)
 
 - Lobster Google Font was used to attract viewers' attention to the company's logo, to make an accent on the strong points of the company, and to incentivize visitors to contact "Animal Shelter".
+
+
+ahgfegåqegiweångt fixa
 
 ---
 
@@ -155,4 +163,4 @@ In your IDE Terminal, type the following command to clone my repository:
 + #### Acknowledgments
 
 - [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
-- mentor med link aegonbtrhobhtrywhbgpityrehnmw
+- [Juliia Konn](https://github.com/IuliiaKonovalova) My mentor why helped my alot.
